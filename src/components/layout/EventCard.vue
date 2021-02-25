@@ -1,7 +1,7 @@
 <template>
   <div class="eventCardItem">
     <q-card class="my-card q-ma-md">
-      <q-img src="https://cdn.quasar.dev/img/mountains.jpg">
+      <q-img src="https://d2cv1d7fub3ij0.cloudfront.net/event/avatar/2021/02/04/p_1612436849_disciple-IMG_0013_2_296_296.jpeg">
         <div class="absolute-bottom">
            <span class="cardTag"> {{tags}} </span>
            <span class="cardViews q-mx-xs"> <q-icon class="q-px-xs" name="fa fa-eye"></q-icon> {{views}} </span>
