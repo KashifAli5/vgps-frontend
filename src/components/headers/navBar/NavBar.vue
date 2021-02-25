@@ -34,6 +34,13 @@
                    <q-input color="white" bottom-slots v-model="text" label="search"/>
                 </div>
               </div>
+              <div class="col-md-1">
+                <q-btn flat round
+                  @click="$q.dark.toggle()"
+                  :icon="$q.dark.isActive ? 'nights_stay' : 'wb_sunny'"
+                  :class="$q.dark.isActive ? 'darkTextColor' : 'bg-primary'"
+                />
+              </div>
 
     </q-toolbar>
 </q-page-sticky>
