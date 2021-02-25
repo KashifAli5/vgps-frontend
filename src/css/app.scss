@@ -1,0 +1,157 @@
+// app global css in SCSS form
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.customContainer {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.headingH2 {
+    font-weight: 600;
+    color: $black;
+    font-size: 30px;
+}
+.cardHeading {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: $black;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.paragraphText {
+    font-size: 16px;
+    line-height: 18px;
+    color: $textColor;
+    font-weight: 400;
+}
+
+.q-item {
+    min-height: unset;
+}
+.q-pl-none {
+	padding-left: 0px !important;
+}
+
+
+// home page header
+.homeSliderWrp {
+	.q-carousel {
+		height: 80vh;
+	}
+}
+.siteLogo {
+	.siteLogoImg {
+		width: 87.2px;
+	    height: 40px;
+	    object-fit: contain;
+	}
+}
+
+
+
+
+// Footer 
+.footer {
+    background-color: $secondaryBg;
+}
+
+.linkItem {
+    color: $textColor;
+    line-height: 18px;
+    width: max-content;
+}
+
+
+// Event Cards 
+
+.eventCardItem {
+	.cardTag {
+		background-color: $purple;
+		padding: 5px 8px;
+		border-radius: 4px;
+		font-family: 'Poppins', sans-serif;
+	}
+	.absolute-bottom {
+		background-color: transparent;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.cardViews {
+		background-color: $lightGray;
+		padding: 5px 8px;
+		color: $black;
+		border-radius: 4px;
+	}
+	.cardlikeIt {
+		cursor: pointer;
+		background-color: $lightGray;
+		padding: 5px 8px;
+		color: $black;
+		border-radius: 4px;
+	}
+	.cardTagLink {
+		color: $lightBlue;
+		cursor: pointer;
+		font-family: Poppins,sans-serif;
+	    font-size: 16px;
+	    line-height: 24px;
+	    font-weight: 400;
+	}
+	.cardHashtags {
+		color: $lightBlue;
+		cursor: pointer;
+		font-family: Poppins,sans-serif;
+	    font-size: 16px;
+	    line-height: 24px;
+	    font-weight: 400;
+	}
+	.cardText {
+		font-family: Poppins,sans-serif;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	    text-align: left;
+	    font-size: 16px;
+	    font-weight: 400;
+	    line-height: 24px;
+	    color: $textlightColor;
+	}
+	.cardBtnsWrp {
+		display: flex;
+		.cardFollowBtn {
+			background-color: $btnGbColor;
+			color: $textColor;
+		}
+	}
+	.my-card {
+		.q-img {
+			height: 275px;
+			overflow: hidden;
+		}
+	}
+	.q-card {
+		box-shadow: unset;
+	}
+	.q-card__section--vert {
+		padding-left: 0px;
+	}
+}
+.navSearchBar {
+	.q-field--standard .q-field__control::before {
+		
+	}
+}
+.citiesFilterWrap {
+	.q-carousel {
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.cardCol {
+		margin: 0 auto;
+	}
+}
