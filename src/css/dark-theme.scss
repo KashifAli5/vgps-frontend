@@ -1,0 +1,39 @@
+
+body.body--dark {
+	.q-dark {
+		background-color: #424242;
+	}
+	.headingH2 {
+		color: $white;
+	}
+	.cardHeading {
+		color: $white;
+	}
+	.paragraphText {
+		color: $white;
+	}
+	.cardText {
+		color: $white;
+	}
+	.eventCardItem {
+		.q-card__section--vert {
+	    	padding-left: 20px;
+		}
+	}
+	.eventCardItem {
+		.cardBtnsWrp {
+			.cardFollowBtn {
+				background-color: #424242;;
+				color: $white;
+			}
+		}
+	}
+	.citiesFilterWrap {
+		.q-carousel--dark {
+			background-color: transparent;
+		}
+	}
+	.footer {
+		background-color: #000;
+	}
+}
