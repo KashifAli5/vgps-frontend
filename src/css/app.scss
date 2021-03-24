@@ -37,6 +37,33 @@ body {
 }
 
 
+.navSearchBar {
+	flex: 1 1 0%;
+	.navSearchBlock {
+		width: 40%;
+		margin: 0 auto;
+	}
+}
+.menuLinks {
+	.navLinksBlock {
+		display: flex;
+		margin-left: 20px;
+		a {
+			font-size: 18px;
+			font-weight: 600;
+			color: #fff;
+			text-decoration: none;
+		}
+		.active {
+			border: 1px solid #fff;
+			border-radius: 4px;
+			padding: 5px;
+		}
+	}
+}
+
+
+
 // home page header
 .homeSliderWrp {
 	.q-carousel {
@@ -49,6 +76,7 @@ body {
 	    height: 40px;
 	    object-fit: contain;
 	}
+	margin-right: 30px;
 }
 
 
