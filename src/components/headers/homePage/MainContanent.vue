@@ -45,6 +45,10 @@ export default {
     return {
       cardData: [
         { title: 'Jhay Cortez', startDate: 'Fri, 2/26/21', endDate: 'Fri, 2/26/21', startTime: '10:00 PM', category: 'Gilt Nightclub', tags: '#Entertainment', tagLink: '#tag', city: 'Orlando', state: 'FL', views: '59' },
+        { title: 'JDisciple', startDate: 'Fri, 2/26/21', endDate: 'Fri, 2/26/21', startTime: '10:00 PM', category: 'Nos Event Center', tags: '#Entertainment', tagLink: '#Festival', city: 'San Bernardino', state: 'CA', views: '59' },
+        { title: 'JDisciple', startDate: 'Fri, 2/26/21', endDate: 'Fri, 2/26/21', startTime: '10:00 PM', category: 'Nos Event Center', tags: '#Entertainment', tagLink: '#Festival', city: 'San Bernardino', state: 'CA', views: '59' },
+        { title: 'JDisciple', startDate: 'Fri, 2/26/21', endDate: 'Fri, 2/26/21', startTime: '10:00 PM', category: 'Nos Event Center', tags: '#Entertainment', tagLink: '#Festival', city: 'San Bernardino', state: 'CA', views: '59' },
+        { title: 'JDisciple', startDate: 'Fri, 2/26/21', endDate: 'Fri, 2/26/21', startTime: '10:00 PM', category: 'Nos Event Center', tags: '#Entertainment', tagLink: '#Festival', city: 'San Bernardino', state: 'CA', views: '59' },
         { title: 'JDisciple', startDate: 'Fri, 2/26/21', endDate: 'Fri, 2/26/21', startTime: '10:00 PM', category: 'Nos Event Center', tags: '#Entertainment', tagLink: '#Festival', city: 'San Bernardino', state: 'CA', views: '59' }
       ],
       current: 1
