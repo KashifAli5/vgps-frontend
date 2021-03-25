@@ -32,7 +32,7 @@
                  <a href="#">Map</a>
               </q-item>
                <q-item clickable >
-                 <a href="#">Signin</a>
+                 <userAuth />
               </q-item>
             </div>
           </div>
@@ -42,7 +42,9 @@
 </template>
 
 <script>
+import userAuth from '../../auth/auth'
 export default {
-  name: 'NavBar'
+  name: 'NavBar',
+  components: { userAuth }
 }
 </script>
