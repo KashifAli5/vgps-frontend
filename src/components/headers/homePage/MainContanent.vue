@@ -30,7 +30,7 @@
                         </q-pagination>
                       </div>
                     </div>
-
+                  <darkLightMode />
               </div>
           </q-page-container>
       </q-layout>
@@ -38,9 +38,10 @@
 </template>
 <script>
 import EventCard from '../../layout/EventCard'
+import darkLightMode from '../../dark-light-mode-button'
 export default {
   name: 'MainContanent',
-  components: { EventCard },
+  components: { EventCard, darkLightMode },
   data () {
     return {
       cardData: [

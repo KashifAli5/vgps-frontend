@@ -14,11 +14,6 @@
             </div>
           </div>
           <div class="">
-            <q-btn flat round
-              @click="$q.dark.toggle()"
-              :icon="$q.dark.isActive ? 'nights_stay' : 'wb_sunny'"
-              :class="$q.dark.isActive ? 'darkTextColor' : 'bg-primary'"
-            />
           </div>
           <div class="menuLinks justify-between ">
             <div class="navLinksBlock">
